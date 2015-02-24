@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "Main": {
+            "applicationId": "",
+            "masterKey": ""
+        },
+        "_default": {
+            "link": "Main"
+        }
+    },
+    "global": {
+        "parseVersion": "1.3.5"
+    }
+}
