@@ -42,7 +42,7 @@ Parse.Cloud.run('passwordless', { email: email }, {
     showSuccess("Please check your email to continue.");
   },
   error: function(error) {
-    $scope.showError(error.message);
+    showError(error.message);
   }
 });
 ```
@@ -58,7 +58,7 @@ Parse.Cloud.run('passwordless', { token: token }, {
     });
   },
   error: function(error) {
-    $scope.showError('Passwordless token is invalid.');
+    showError('Passwordless token is invalid.');
   }
 });
 ```
